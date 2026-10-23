@@ -1,0 +1,52 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambienti virtuali
+venv/
+.venv/
+env/
+ENV/
+
+# Distribuzione e build Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test e coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# === Arduino ===
+# File binari e compilati
+*.hex
+*.elf
+*.bin
+
+# Cartelle di build dell'IDE Arduino e arduino-cli
+build/
+out/
+.arduinoIDE/
+
+# === Credenziali e File Sensibili ===
+.env
+*.env
+secrets.h
+config.local.py
+
+# === IDE e Sistema Operativo ===
+# VS Code (mantiene condivisi solo i file di configurazione essenziali)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# PyCharm / JetBrains
+.idea/
+
+# File di sistema
+.DS_Store
+Thumbs.db
